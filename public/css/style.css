@@ -1,0 +1,45 @@
+body {
+  background-color: #22241C;
+  color: #2E3126;
+}
+
+.container {
+  border: solid 4px #505938;
+  background-color: #A5B08B;
+  margin: 20px auto;
+  width: 65%;
+  text-align: center;
+}
+input, select{
+  width: 150px;
+  height: 34px;
+  overflow: hidden;
+  background-color: #A5B08B;
+  border: 1px solid #707B55;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #505938
+}
+
+h2{
+  line-height: .7em;
+}
+
+::-webkit-input-placeholder {
+   color: #2E3126;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #2E3126;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #2E3126;
+}
+
+:-ms-input-placeholder {
+   color: #2E3126;
+}

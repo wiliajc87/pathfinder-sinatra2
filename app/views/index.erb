@@ -1,3 +1,22 @@
 <div class="container">
-  <h1>Legendary Pathfinder Character Creator</h1>
+  <h1>Pathfinder Character Creator</h1>
+  <% if session[:user_id] == nil %>
+    <p><span><a href="/user/login">Log-in to access your previously created characters</a></span></p>
+    <p><a href="/user/create">Create your account now!</a></p>
+
+
+    <% else %>
+  <% @user = User.find(session[:user_id])%>
+    <h2>Welcome back, <%= @user.email %></h2>
+    <h3><a href="/characters/new">Create a new character</a></h3>
+    <% if @user.characters %>
+      <% @user.characters.each do |char| %>
+      <h3> <%= char.name %> <h3>
+    <% end %>
+    <% end %>
+
+
+
+
+  <% end %>
 </div>

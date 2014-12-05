@@ -1,6 +1,6 @@
 class CreateSkills < ActiveRecord::Migration
   def change
-    create_tablle :skills do |t|
+    create_table :skills do |t|
       t.string :name
       t.string :mod
       t.boolean :untrained, :default => true
