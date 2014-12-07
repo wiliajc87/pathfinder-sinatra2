@@ -1,35 +1,35 @@
 Race.create(name: "Human")
-Stat.create(name: "hp")      t.integer :hp, default: 0
-Stat.create(name: "charisma")      t.integer :charisma, default: 0
-Stat.create(name: "strength")      t.integer :strength, default: 0
-Stat.create(name: "intelligence")      t.integer :intelligence, default: 0
-Stat.create(name: "wisdom")      t.integer :wisdom, default: 0
-Stat.create(name: "dexterity")      t.integer :dexterity, default: 0
-Stat.create(name: "constitution")      t.integer :constitution, default: 0
-Stat.create(name: "fortitude_save")      t.integer :fortitude_save, default: 0
-Stat.create(name: "reflect_save")      t.integer :reflect_save, default: 0
-Stat.create(name: "will_save")      t.integer :will_save, default: 0
-Stat.create(name: "armor_class")      t.integer :armor_class, default: 0
-Stat.create(name: "touch_armor_class")      t.integer :touch_armor_class, default: 0
-Stat.create(name: "flat_foot_armor_class")      t.integer :flat_foot_armor_class, default: 0
-Stat.create(name: "melee_base_attack_bonus")      t.integer :melee_base_attack_bonus, default: 0
-Stat.create(name: "ranged_attack_bonus")      t.integer :ranged_attack_bonus, default: 0
-Stat.create(name: "combat_manuever_bonus")      t.integer :combat_manuever_bonus, default: 0
-Stat.create(name: "combat_manuever_defense")      t.integer :combat_manuever_defense, default: 0
-Stat.create(name: "basic_speed")      t.integer :basic_speed, default: 0
-Stat.create(name: "hustle_speed")      t.integer :hustle_speed, default: 0
-Stat.create(name: "run_speed_x_3")      t.integer :run_speed_x_3, default: 0
-Stat.create(name: "run_speed_x_4")      t.integer :run_speed_x_4, default: 0
-Stat.create(name: "swim_speed")      t.integer :swim_speed, default: 0
-Stat.create(name: "climb_speed")      t.integer :climb_speed, default: 0
-Stat.create(name: "fly_speed")      t.integer :fly_speed, default: 0
-Stat.create(name: "difficult_terrain_speed")      t.integer :difficult_terrain_speed, default: 0
-Stat.create(name: "light_load")      t.integer :light_load, default: 0
-Stat.create(name: "medium_load")      t.integer :medium_load, default: 0
-Stat.create(name: "heavy_load")      t.integer :heavy_load, default: 0
-Stat.create(name: "lift_over_head")      t.integer :lift_over_head, default: 0
-Stat.create(name: "lift_from_ground")      t.integer :lift_from_ground, default: 0
-Stat.create(name: "push_or_drag")      t.integer :push_or_drag, default: 0
+Stat.create(name: "hp")
+Stat.create(name: "charisma")
+Stat.create(name: "strength")
+Stat.create(name: "intelligence")
+Stat.create(name: "wisdom")
+Stat.create(name: "dexterity")
+Stat.create(name: "constitution")
+Stat.create(name: "fortitude_save")
+Stat.create(name: "reflect_save")
+Stat.create(name: "will_save")
+Stat.create(name: "armor_class")
+Stat.create(name: "touch_armor_class")
+Stat.create(name: "flat_foot_armor_class")
+Stat.create(name: "melee_base_attack_bonus")
+Stat.create(name: "ranged_attack_bonus")
+Stat.create(name: "combat_manuever_bonus")
+Stat.create(name: "combat_manuever_defense")
+Stat.create(name: "basic_speed")
+Stat.create(name: "hustle_speed")
+Stat.create(name: "run_speed_x_3")
+Stat.create(name: "run_speed_x_4")
+Stat.create(name: "swim_speed")
+Stat.create(name: "climb_speed")
+Stat.create(name: "fly_speed")
+Stat.create(name: "difficult_terrain_speed")
+Stat.create(name: "light_load")
+Stat.create(name: "medium_load")
+Stat.create(name: "heavy_load")
+Stat.create(name: "lift_over_head")
+Stat.create(name: "lift_from_ground")
+Stat.create(name: "push_or_drag")
 
 # User.create(name:"Jordy")
 # User.create(name:"Mak")

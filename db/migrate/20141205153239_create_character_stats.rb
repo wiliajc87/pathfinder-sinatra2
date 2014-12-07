@@ -4,5 +4,6 @@ class CreateCharacterStats < ActiveRecord::Migration
       t.integer :character_id, :null => false
       t.integer :stat_id, :null => false
       t.integer :value, default: 0
+    end
   end
 end
