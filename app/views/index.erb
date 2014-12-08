@@ -3,20 +3,15 @@
   <% if session[:user_id] == nil %>
     <p><span><a href="/user/login">Log-in to access your previously created characters</a></span></p>
     <p><a href="/user/create">Create your account now!</a></p>
-
-
     <% else %>
-  <% @user = User.find(session[:user_id])%>
     <h2>Welcome back, <%= @user.email %></h2>
+    <% if Character.find_by(user_id: @user.id)  %>
     <h3><a href="/characters/new">Create a new character</a></h3>
-    <% if @user.characters %>
       <% @user.characters.each do |char| %>
       <h3> <%= char.name %> <h3>
+        <% end %>
+    <% else %>
+      <h3><a href="/characters/new">Create your first character!</a></h3>
     <% end %>
-    <% end %>
-
-
-
-
   <% end %>
 </div>

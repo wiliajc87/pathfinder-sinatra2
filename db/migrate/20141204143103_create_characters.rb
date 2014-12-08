@@ -3,6 +3,14 @@ class CreateCharacters < ActiveRecord::Migration
     create_table :characters do |t|
       t.string :name
       t.belongs_to :user
+      t.string :race
+      t.text :race_traits
+      t.integer :charisma, default: 0
+      t.integer :wisdom, default: 0
+      t.integer :strength, default: 0
+      t.integer :dexterity, default: 0
+      t.integer :intelligence, default: 0
+      t.integer :constitution, default: 0
       t.string :size, default: nil
       t.string :alignment, default: nil
       t.string :eye_color, default: nil

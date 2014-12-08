@@ -1,16 +1,16 @@
 <div class="container">
   <h1>Pathfinder Character Creator</h1>
-  <h2>New Character</h2>
+  <h2>Select Name and Race</h2>
   <form action='/characters/new' method="POST">
     <input type="text" name="name" placeholder="Character Name"><br>
-    <select>
-      <option>Dwarf</option>
-      <option>Elf</option>
-      <option>Gnome</option>
-      <option>Half-elf</option>
-      <option>Halfling</option>
-      <option>Half-orc</option>
-      <option>Human</option>
+    <select name="race_choice">
+      <option name="dwarf">Dwarf</option>
+      <option name="elf">Elf</option>
+      <option name="gnome">Gnome</option>
+      <option name="halfelf">Half-elf</option>
+      <option name="halfling">Halfling</option>
+      <option name="halforc">Half-orc</option>
+      <option name="human">Human</option>
     </select><br>
     <input type="submit">
   </form>
